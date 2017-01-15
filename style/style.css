@@ -1,0 +1,120 @@
+.main-container {
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	height: 50px;
+	line-height: 50px;
+	display: inline;
+}
+
+img {
+	/*border: 1px solid red;*/
+	vertical-align: middle;
+	padding-bottom: 5px;
+}
+
+/* TOP NAVIGATION */
+
+.top-navigation {
+	text-align: right;
+}
+
+.top-navigation ul li {
+	padding-right: 15px;
+}
+
+.top-navigation ul li:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+/* LOGO */
+
+.logo {
+	text-align: center;
+	padding-top: 120px;
+}
+
+/* SEARCH BAR */
+
+.search-bar {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.search-bar img {
+	position: relative;
+	top: -35px;
+	right: -255px;
+}
+
+input {
+	width: 550px;
+	height: 35px;
+}
+
+/* BUTTONS */
+
+.buttons {
+	text-align: center;
+	padding-top: 25px;
+}
+
+button {
+	height: 40px;
+	padding-left: 18px;
+	padding-right: 18px;
+	margin: 2px;
+}
+
+/* LANGUAGE OFFER */
+
+.language-offer {
+	text-align: center;
+	padding-top: 25px;
+}
+
+/* BOTTOM NAVIGATION */
+
+.bottom-navigation {
+	text-align: center;
+	width: 99%;
+	white-space: nowrap;
+}
+
+.bottom-right {
+	display: inline-block;
+	width: 49.5%;
+	min-width: 400px;
+	text-align: right;
+}
+
+.bottom-left {
+	display: inline-block;
+	width: 49.5%;
+	text-align: left;
+}
+
+.bottom-navigation div ul li {
+	padding: 10px;
+}
+
+.bottom-navigation div ul li:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+@media screen and (min-height: 540px) {
+	.bottom-navigation {
+	position: absolute;
+	bottom: 0px;
+	}
+}
